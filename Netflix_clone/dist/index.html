@@ -13,23 +13,54 @@
   </head>
   <body>
     <div
-      class="h-screen bg-[url('/Netflix_clone/Images/bg.jpg')]  bg-cover bg-center bg-no-repeat"
+      class="h-svh bg-[url('/Netflix_clone/Images/bg.jpg')] bg-cover bg-center bg-no-repeat"
     >
-      <div class="h-screen bg-[rgba(0,0,0,0.5)]">
-        <div class="flex h-28 justify-between px-40 py-6">
+      <div class="h-svh bg-[rgba(0,0,0,0.6)]">
+        <div class="flex sm:h-28 justify-between sm:px-40 sm:py-6 px-8 py-4">
           <div class="logo">
             <img
-              class="w-36 h-10"
+              class="sm:w-36 sm:h-10 w-16 h-8"
               src="/Netflix_clone/Images/Netflix_Logo.svg"
               alt="Netflix Logo"
             />
           </div>
           <div class="sign-in">
             <button
-              class="bg-[#E50914] text-white h-8 w-20 rounded-md text-sm font-bold"
+              class="bg-[#E50914] text-white h-8 w-[75px] rounded-md text-sm font-bold hover:bg-[#c11119]"
             >
               Sing In
             </button>
+          </div>
+        </div>
+        <div
+          class="text-white w-full flex flex-col py-14 font-medium justify-center items-center text-center sm:pt-40"
+        >
+          <h1 class="sm:text-5xl text-3xl font-bold text-center">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <h4 class="py-4 sm:text-2xl">Watch anywhere. Cancel anytime.</h4>
+          <h4 class="pb-3 w-60 sm:text-xl sm:w-auto">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h4>
+          <div class="w-full">
+            <form
+              action=""
+              class="flex flex-col justify-center items-center sm:flex-row  "
+            >
+              <input
+                type="text"
+                name=""
+                id=""
+                class="h-12 w-5/6 pl-4 bg-transparent border border-1 border-gray-500 mb-4 sm:w-1/4 sm:pb-0 sm:mb-0 sm:mr-2 sm:text-lg"
+                placeholder="Email Address"
+              />
+              <button
+                class="bg-[#E50914] text-white h-12 w-40 rounded-md text-xl font-bold hover:bg-[#c11119]"
+              >
+                Get Started >
+              </button>
+            </form>
           </div>
         </div>
       </div>
