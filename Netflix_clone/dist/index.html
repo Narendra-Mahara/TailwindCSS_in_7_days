@@ -12,10 +12,11 @@
     <title>Netflix Nepal - Watch TV Shows Online, Watch Movies Online</title>
   </head>
   <body>
+    <!-- ------------------------------------------Nav Bar------------------------------------------ -->
     <div
-      class="h-svh bg-[url('/Netflix_clone/Images/bg.jpg')] bg-cover bg-center bg-no-repeat"
+      class="sm:h-svh bg-[url('/Netflix_clone/Images/bg.jpg')] bg-cover bg-center bg-no-repeat"
     >
-      <div class="h-svh bg-[rgba(0,0,0,0.6)]">
+      <div class="sm:h-svh bg-[rgba(0,0,0,0.6)]">
         <div class="flex sm:h-28 justify-between sm:px-40 sm:py-6 px-8 py-4">
           <div class="logo">
             <img
@@ -32,6 +33,9 @@
             </button>
           </div>
         </div>
+        <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<**********************>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+        <!-- <<<<<<<<<<<<<<<<<<<<<<<<First Section>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
         <div
           class="text-white w-full flex flex-col py-14 font-medium justify-center items-center text-center sm:pt-40"
         >
@@ -46,7 +50,7 @@
           <div class="w-full">
             <form
               action=""
-              class="flex flex-col justify-center items-center sm:flex-row  "
+              class="flex flex-col justify-center items-center sm:flex-row"
             >
               <input
                 type="text"
@@ -65,5 +69,36 @@
         </div>
       </div>
     </div>
+    <!-- ------------------------------------------************------------------------------------------ -->
+
+    <!-- ------------------------------------------Second Section------------------------------------------ -->
+    <div
+      class="border-t-4 border-gray-600 py-10 flex flex-col text-center h-[500px] bg-black text-white px-5 sm:flex-row sm:items-center sm:px-20"
+    >
+      <div class="left sm:w-1/2">
+        <h2 class="text-3xl font-bold sm:text-5xl sm:text-left">
+          Enjoy on your TV
+        </h2>
+        <h4 class="text-lg pt-5 w-full sm:text-left sm:text-2xl">
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </h4>
+      </div>
+      <div
+        class="h-52 flex flex-col justify-center items-center sm:w-1/2 sm:h-full"
+      >
+        <video
+          class="relative top-[178px] w-56 z-0 sm:w-72 sm:top-56"
+          src="/Netflix_clone/video/video-tv-0819.m4v "
+          autoplay loop
+        ></video>
+        <img
+          class="z-10 w-80 sm:w-96 sm:mb-52"
+          src="/Netflix_clone/Images/tv.png"
+          alt="tvpng"
+        />
+      </div>
+    </div>
+    <!-- ------------------------------------------************------------------------------------------ -->
   </body>
 </html>
