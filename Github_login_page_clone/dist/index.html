@@ -13,26 +13,50 @@
   </head>
   <body>
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>firt portion<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    <div class="w-full h-svh flex flex-col items-center">
+    <div class="w-full h-svh flex flex-col items-center text-[14px]">
       <div class="h-28 py-8">
         <a href="#"
           ><img
-            class="w-12 h-12 sm:w-14 h-14"
+            class="w-12 h-12 sm:w-14 sm:h-14"
             src="/Github_login_page_clone/Images/Logo.png"
             alt="logo"
         /></a>
       </div>
       <div class="text">
-        <h3>Sign in to GitHub</h3>
+        <h1 class="text-2xl">Sign in to GitHub</h1>
       </div>
-      <div class="form">
-        <form action="">
-          <label for="Username"> Username or email address </label>
-          <input type="email" name="Username" id="Username" />
-          <label for="password"> Password </label>
-          <input type="password" name="password" id="password" />
-          <h5><a href="#">Forgot password?</a></h5>
-          <button class="btn">Sign in</button>
+      <div
+        class="bg-[#F6F8FA] mt-3 w-[288px] border border-gray-300 rounded-md"
+      >
+        <form action="" class="px-4 py-4">
+          <div class="">
+            <label for="Username"> Username or email address </label>
+            <div class="mt-2 flex flex-col items-center">
+              <input
+                class="w-full border border-slate-400 outline-none rounded-md px-2 py-1 focus:border-blue-500 focus:border-2"
+                type="email"
+                name="Username"
+                id="Username"
+              />
+            </div>
+          </div>
+          <div class="mt-4">
+            <div class="flex justify-between">
+              <label for="password"> Password </label>
+              <h5><a class="text-blue-600 text-[12px]" href="#">Forgot password?</a></h5>
+            </div>
+            <div class="mt-2 flex flex-col items-center">
+              <input
+                class="w-full border border-slate-400 outline-none rounded-md px-2 py-1 focus:border-blue-500 focus:border-2"
+                type="password"
+                name="password"
+                id="password"
+              />
+            </div>
+          </div>
+          <div class="mt-4">
+            <button class="h-8 w-full bg-[#1F883D] rounded-md text-white" >Sign in</button>
+          </div>
         </form>
       </div>
       <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>second portion<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
