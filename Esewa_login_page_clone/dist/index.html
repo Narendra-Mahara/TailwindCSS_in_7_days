@@ -9,7 +9,92 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>eSewa | Digital wallet in Nepal for Online payment services</title>
   </head>
-  <body></body>
+  <body>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Nav Bar>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div
+      class="w-full h-[96px] bg-gray-800 lg:flex lg:h-[70px] lg:items-center lg:justify-around lg:w-full"
+    >
+      <div class="w-full h-14 flex justify-between items-center lg:w-[120px]">
+        <div
+          class="w-[100px] h-[26px] md:w-[98px] md:h-[33px] lg:w-[124px] lg:h-[33px]"
+        >
+          <img
+            class="h-full w-full"
+            src="/Esewa_login_page_clone/Images/esewa_logo.png"
+            alt="logo"
+          />
+        </div>
+        <div class="lg:hidden">
+          <button class="border-2 border-green-600 text-white">Log in</button>
+        </div>
+      </div>
+
+      <div class="w-full flex items-center px-1 lg:w-[390px] lg:h-[34px]">
+        <i
+          class="fa-solid fa-magnifying-glass relative left-7 cursor-pointer text-gray-500"
+        ></i>
+        <input
+          class="lg:w-[390px] h-[34px] w-full bg-[#28323c] px-[35px] rounded-md text-sm"
+          type="text"
+          placeholder="Search services/merchants by tags (e.g.adsl)"
+        />
+        <i
+          class="fa-solid fa-circle-xmark relative right-7 cursor-pointer text-gray-500"
+        ></i>
+      </div>
+
+      <div
+        class="hidden lg:flex lg:items-center text-white lg:justify-around lg:w-[585px] lg:h-[42px]"
+      >
+        <div class="id">
+          <i
+            class="fa-solid fa-user relative left-[26px] text-green-500 text-xs"
+          ></i>
+          <input
+            class="lg:w-[180px] md:[134px] md:w-[130px] h-[34px] bg-[#28323c] px-8 text-white text-sm"
+            type="text "
+            id="userId"
+            placeholder="eSewa ID"
+          />
+        </div>
+
+        <div class="pass">
+          <i
+            class="fa-solid fa-lock relative left-[26px] text-green-500 text-xs"
+          ></i>
+          <input
+            class="lg:w-[180px] md:[134px] md:w-[130px] h-[34px] bg-[#28323c] px-7 text-white text-sm"
+            type="password "
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div>
+          <button class="h-[34px] lg:w-20 text-white bg-green-600 rounded-sm">
+            Log in
+          </button>
+        </div>
+
+        <div>
+          <button
+            class="h-[34px] lg:w-20 text-green-600 rounded-sm border-2 border-green-600 hover:text-white hover:bg-green-600 hover:ease-in duration-500"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<******************>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+  </body>
 </html>
