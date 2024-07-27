@@ -1,6 +1,7 @@
-## First run the following command
+## First run the following commands
 
 ```
+npm install
 npm run start
 ```
 
